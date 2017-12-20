@@ -93,5 +93,8 @@
                 </div>
             </div>
         </footer>
+        <script src="../../vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="../../vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../../vendor/jquery.back-to-top.js" type="text/javascript"></script> 
     </body>
 </html>
