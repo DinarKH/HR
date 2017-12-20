@@ -1,21 +1,84 @@
 body{
-	background-color: #FFE4C4;	
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	/*background: url('1.jpg') no-repeat;*/
+	background-color: white;
+	height: 145px;
+	margin: 0;
+}
+#centr {
+	position:fixed; 
+
+	top:75%; 
+	left:90%;}
+#jak{
+	width: 100px;
+}
+.footer{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff0f0;
+	text-align: center;
+}
+#footer-text{
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.listmenu{
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-top: 100px;
+	display: block;
+}
+.listmenu li{
+	float: left;
+	display: block;
+	margin-right: 50px;
+}
+.listmenu a{
+	font-family: sans-serif;
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24pt;
 }
 .imgAb{
 	width: 400px;
 	margin: 0px 10px 0px 0px;
+}
+.theme{
+	background-color: white;
+	font-family: sans-serif;
+	text-indent: 0px;
+	margin: 0;
 }
 .minImg{
 	background-color: white;
 	margin-top: 20px;
 	width: 300px;
 }
-.q{
-	width: 100%
-}
-.invis{
-	display: none;
-}
+
 .first{
 	float: left;
 	margin: 20px;
@@ -30,32 +93,22 @@ body{
 	background-color: #F0FFFF;
 	color: black;
 }
-.head_img{
-	width: 100%;
-	height: 20px;
-	margin: 0px 7px 0px 0px;
+.infoblock{
+	width: 200px;
+	margin-left: 80px;
 }
-
-.menu{
-	width: 100%;
-	height: 50px;
-	text-align: center;
-	border-collapse: collapse;
+.main{
+	margin-left: 50px;
 }
-.a{
-	display: inline-block;
-}
-.theme{
-	background-color: #FFF8DC;
-}
-td{
-	width: 25%;
-	border: 2px solid white;
-	background-color: #FF7F50;
-	color: white;
-	font-size: 32pt;
+.formApp{
+	margin-left: 50px;
 }
 p{
 	font-size: 14pt;
 	text-indent: 20px;
+}
+.headPage{
+
+	padding: 10px;
+	margin-left: 0;
 }
