@@ -66,6 +66,11 @@
                 <div class="content-md container">
                     <img class="img-responsive" src="../../images/<?php echo $vacansList[0]['image']."\"" ?> class="minImg">
                 </div>
+                <div id="container">
+					<a href="./1" class="page">1</a>
+					<a href="./2" class="page">2</a>
+					<a href="./3" class="page">3</a>
+				</div>
 			</div>
         </div>
        <footer class="footer">
