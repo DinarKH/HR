@@ -1,11 +1,12 @@
 <?php
 	include_once ROOT.'/models/Vacans.php';
-
 	class VacansController
 	{
-		public function actionList(){
+		public function actionList($parametrs){
 			$vacansList=array();
-			$vacansList=Vacans::getVacansList();
+			if($parametrs[0]){
+				$vacansList=Vacans::getVacansList($parametrs[0]);
+			}
 			require_once(ROOT.'/view/vacans/index.php');
 		}
 	}

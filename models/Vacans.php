@@ -1,6 +1,6 @@
 <?php  	
 	class Vacans{
-		public static function getVacansList(){
+		public static function getVacansList($ida){
 			$params=array(
 				'host'=>'localhost',
 				'dbname'=>'hr',
@@ -8,7 +8,7 @@
 				'pass' => '',
 			);
 			$dbh=new PDO('mysql:host='.$params['host'].'; dbname='.$params['dbname'].'; charset=utf8',$params['user'],$params['pass']);
-			$sql = 'SELECT * FROM vacancies ';
+			$sql = 'SELECT * FROM vacancies where id='.$ida;
 			$vacansList;
 			$i=0;
 			$result=$dbh->query($sql);
